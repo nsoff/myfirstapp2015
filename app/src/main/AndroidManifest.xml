@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nsoff.myfirstapp"
+    android:versionCode="1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nsoff.myfirstapp.MyActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityDemo"
+            android:label="@string/title_activity_activity_demo" >
+        </activity>
+        <activity
+            android:name=".ImageDEMO"
+            android:label="@string/title_activity_image_demo" >
+
+        </activity>
+        <activity
+            android:name=".HandBallActivity"
+            android:label="@string/title_activity_hand_ball" >
+        </activity>
+        <activity
+            android:name=".MeiHuaActivity"
+            android:label="@string/title_activity_mei_hua" >
+        </activity>
+        <activity
+            android:name=".CalcActivity"
+            android:label="@string/title_activity_calc" >
+        </activity>
+        <activity
+            android:name=".SimpleListViewTest"
+            android:label="@string/title_activity_simple_list_view_test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/SimpleAdapterTest/src/main/java/com/nsoff/myapplication/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/build.gradle" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/nsoff/myfirstapp/ActivityDemo.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/nsoff/myfirstapp/DrawView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/nsoff/myfirstapp/ImageDEMO.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/arraylisttest/src/main/java/com/nsoff/arraylisttest/MainActivity.java" charset="GB2312" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

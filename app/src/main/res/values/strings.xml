@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyFirstAPP</string>
+
+    <string name="hello_world">你好世界！</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="action_search">搜索</string>
+    <string name="title_activity_activity_demo">ActivityDemo</string>
+    <string name="title_activity_image_demo">ImageDEMO</string>
+    <string name="title_activity_hand_ball">HandBallActivity</string>
+    <string name="title_activity_mei_hua">MeiHuaActivity</string>
+    <string name="title_activity_calc">CalcActivity</string>
+    <string name="title_activity_simple_list_view_test">SimpleListViewTest</string>
+</resources>
