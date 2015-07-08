@@ -14,19 +14,19 @@ public class MainActivity extends ActionBarActivity {
     AutoCompleteTextView actv;
     MultiAutoCompleteTextView mauto;
     String[] books=new String[]{
-            "疯狂Java讲义","疯狂Ajax讲义","疯狂XML讲义","疯狂Workflow讲义"
+            "china","america","canada","chile"
     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ArrayAdapter<String> aa=new ArrayAdapter<String>(this,R.layout.simple_dropdown_item_line,books);
+        ArrayAdapter<String> aa=new ArrayAdapter<String>(this,android.R.layout.simple_dropdown_item_1line,books);
         actv=(AutoCompleteTextView)findViewById(R.id.auto);
         actv.setAdapter(aa);
-        mauto=(MultiAutoCompleteTextView)findViewById(R.id.mauto);
-        mauto.setAdapter(aa);
-        mauto.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
+//        mauto=(MultiAutoCompleteTextView)findViewById(R.id.mauto);
+//        mauto.setAdapter(aa);
+//        mauto.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
     }
 
     @Override

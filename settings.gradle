@@ -1,1 +1,1 @@
-include ':app', ':arraylisttest', ':SimpleAdapterTest', ':audocompletetextview'
+include ':app', ':arraylisttest', ':SimpleAdapterTest', ':audocompletetextview', ':gallary'
